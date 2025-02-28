@@ -1,0 +1,12 @@
+schemaVersion: 1.1
+
+endpoints:
+  - name: mi-hello-world
+    displayName: mi-hello-world
+    service:
+      basePath: /HelloWorld
+      port: 8290
+    type: REST
+    networkVisibilities: 
+      - Public
+    schemaFilePath: helloConfigs/src/main/resources/metadata/HelloWorld_swagger.yaml
