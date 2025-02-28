@@ -9,4 +9,6 @@ endpoints:
     type: REST
     networkVisibilities: 
       - Organization
+      - Public
+      - Project
     schemaFilePath: helloConfigs/src/main/resources/metadata/HelloWorld_swagger.yaml
