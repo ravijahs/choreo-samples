@@ -8,5 +8,5 @@ endpoints:
       port: 8290
     type: REST
     networkVisibilities: 
-      - Public
+      - Organization
     schemaFilePath: helloConfigs/src/main/resources/metadata/HelloWorld_swagger.yaml
